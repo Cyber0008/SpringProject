@@ -7,7 +7,8 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.5.0</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath>/</relativePath>
+		<!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.cyber</groupId>
 	<artifactId>springsecure</artifactId>
@@ -29,7 +30,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper -->
 		<dependency>
 			<groupId>org.apache.tomcat</groupId>
